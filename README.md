@@ -12,6 +12,7 @@ As required by the original license, we need to state the changes made to this c
 - Added a DockerHub Autobuild [kwarc/cla-assistant](https://hub.docker.com/r/kwarc/cla-assistant)
 - Updated Dependencies to fix security issues
 - Removed original repository specific hooks for Travis
+- Added a docker-compose file under /deploy/ for deployment
 
 Table of Contents
 ===
