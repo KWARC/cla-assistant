@@ -92,10 +92,7 @@
         "start": "node app.js",
         "postinstall": "bower install",
         "test": "grunt test",
-        "acceptance_test": "source .env && npx codeceptjs run",
-        "snyk-monitor": "snyk auth $SNYK_TOKEN && snyk monitor",
-        "snyk-protect": "snyk protect",
-        "prepublish": "npm run snyk-protect"
+        "acceptance_test": "source .env && npx codeceptjs run"
     },
     "snyk": true
 }
