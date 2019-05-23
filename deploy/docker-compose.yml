@@ -5,6 +5,7 @@ services:
   ## Nginx entry point
   ##
   nginx:
+    restart: always
     image: jwilder/nginx-proxy:alpine
     
     labels:
@@ -19,7 +20,7 @@ services:
        
     depends_on:
     - assistant
-    
+
     ports:
       - "80:80"
       - "443:443"
@@ -31,6 +32,7 @@ services:
   ## Letsencrypt-Companion
   ##
   letsencrypt:
+    restart: always
     image: jrcs/letsencrypt-nginx-proxy-companion
     
     volumes:
@@ -48,6 +50,7 @@ services:
   
   # The main assistant
   assistant:
+    restart: always
     image: kwarc/cla-assistant
     
     depends_on:
@@ -73,6 +76,7 @@ services:
       - internal
   
   mongo:
+    restart: always
     image: mongo
     restart: always
     environment:
