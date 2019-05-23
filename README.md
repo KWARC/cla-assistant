@@ -1,6 +1,16 @@
-[![CLA assistant](https://cla-assistant.io/readme/badge/cla-assistant/cla-assistant)](https://cla-assistant.io/cla-assistant/cla-assistant) [![Build Status](https://travis-ci.org/cla-assistant/cla-assistant.svg?branch=master)](https://travis-ci.org/cla-assistant/cla-assistant) [![Dependency Status](https://david-dm.org/cla-assistant/cla-assistant.svg)](https://david-dm.org/cla-assistant/cla-assistant) [![devDependency Status](https://david-dm.org/cla-assistant/cla-assistant/dev-status.svg)](https://david-dm.org/cla-assistant/cla-assistant#info=devDependencies) [![Coverage Status](https://img.shields.io/coveralls/cla-assistant/cla-assistant.svg)](https://coveralls.io/r/cla-assistant/cla-assistant) [![Code Climate](https://codeclimate.com/github/cla-assistant/cla-assistant/badges/gpa.svg)](https://codeclimate.com/github/cla-assistant/cla-assistant)
+[![Build Status](https://travis-ci.org/kwarc/cla-assistant.svg?branch=master)](https://travis-ci.org/kwarc/cla-assistant)
 
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1583/badge)](https://bestpractices.coreinfrastructure.org/projects/1583)
+Changes
+===
+
+The code in this repository is basically identical to [https://github.com/cla-assistant/cla-assistant](https://github.com/cla-assistant/cla-assistant). 
+As required by the original license, we need to state the changes made to this code:
+
+## 23rd May 2019
+
+- Updated README
+- Added a DockerHub Autobuild [kwarc/cla-assistant](https://hub.docker.com/r/kwarc/cla-assistant)
+- Updated Dependencies to fix security issues
 
 Table of Contents
 ===
